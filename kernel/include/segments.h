@@ -1,0 +1,11 @@
+#define NULL_SEG 0x00
+#define KERNEL_CODE_SEG 0x08
+#define KERNEL_DATA_SEG 0x10
+#define USER_CODE_SEG   0x18
+#define USER_DATA_SEG   0x20
+#define TSS_SEG			0x28
+#define INIT_SP			0x001C0000
+#define CPL0 0x0
+#define CPL1 0x1
+#define CPL2 0x2
+#define CPL3 0x3

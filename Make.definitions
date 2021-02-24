@@ -1,0 +1,14 @@
+
+# Common definitions for all makefiles.
+
+KERNEL_START = 0x9000
+BOOT_SEG = 0x7C00
+
+BOOTLOADER_DIR = bootloader
+BOOTLOADER_IMG = boot.boot
+
+ASFLAGS = -g -m32
+LDFLAGS = -m32
+CFLAGS = -Wall -g -nostdinc -m32
+CC = gcc 
+
