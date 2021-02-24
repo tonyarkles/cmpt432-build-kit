@@ -1,4 +1,11 @@
 
+# Warning
+
+There may be a bug in the bootloader where it will only copy the first
+64kB of your kernel image. This was reported and fixed by a student at
+one point, but I have no clue if it made it in here yet. If you find
+it before I do, send a PR please!
+
 # Overview
 
 This is the build kit I put together for CMPT432 in around 2010. Found
